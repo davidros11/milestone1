@@ -4,7 +4,6 @@ using namespace std;
 #include "Utils.h"
 #include <unistd.h>
 #include <string>
-#include <queue>
 #include <map>
 #include "Interpreter.h"
 #include <thread>

@@ -1,5 +1,4 @@
 #include "Utils.h"
-#include <iostream>
 /**
  * Returns a vector containing the variable paths in the order they appear in the xml file
  * @return - the vector.

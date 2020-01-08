@@ -5,7 +5,6 @@
 #include <vector>
 #include <thread>
 #include "Command.h"
-#include <unordered_map>
 typedef map<string, pair<string, vector<string>>> funcMap;
 class Parser {
 private:
@@ -22,7 +21,7 @@ private:
     // function map
     funcMap *funcTable;
     // command map
-    unordered_map <string, Command*> comTable;
+    map<string, Command*> comTable;
     // for parsing math expressions
     Interpreter *interpreter;
 public:

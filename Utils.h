@@ -7,7 +7,6 @@ using namespace std;
 #include <map>
 #include <condition_variable>
 #include <atomic>
-//#include <algorithm>
 /**
  * Converts the code into tokens.
  * @param str - the code

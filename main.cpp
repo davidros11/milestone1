@@ -1,14 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include "Command.h"
-#include "Interpreter.h"
-#include <vector>
 #include "Parser.h"
-#include <chrono>
-#include <netinet/in.h>
-#include <sys/socket.h>
-using namespace std::chrono;
-
 int main(int argc, char *argv[]) {
     // if there's no file, print an error and exit
     if(argc < 2) {

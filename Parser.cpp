@@ -1,7 +1,6 @@
 #include "Parser.h"
 #include "Command.h"
 #include <iostream>
-//typedef map<string, pair<string, vector<string>>> funcMap;
 Parser::Parser() {
     output = new OutputQueue();
     input = new InputTable();
