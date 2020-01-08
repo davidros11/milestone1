@@ -1,7 +1,7 @@
 
 # Advanced programming I milestone 1
 ## Repository link
-https://github.com/davidros11/milestone1/new/master?readme=1
+https://github.com/davidros11/milestone1
 ## instructions
 Compile with
 
